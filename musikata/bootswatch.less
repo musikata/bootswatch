@@ -4,6 +4,24 @@
 
 @import url("//fonts.googleapis.com/css?family=Roboto:300,400,500");
 
+// MK
+#main{
+  background: url("../assets/img/mountains.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  min-height: 100%;
+
+  @media (min-width:@screen-lg) {
+    background: url('../assets/img/leftBranch.png'), url('../assets/img/rightBranch.png'), url("../assets/img/mountains.jpg");
+    background-size: auto, auto, 100% 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: left 180px, right 50px, center top;
+    background-attachment: fixed, fixed, fixed;
+  }
+}
+
 // Navbar =====================================================================
 
 .navbar {
