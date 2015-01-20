@@ -1,3 +1,4 @@
+@import url("//fonts.googleapis.com/css?family=Merienda:300,400,500");
 @import url("//fonts.googleapis.com/css?family=Roboto:300,400,500");
 /*!
  * bootswatch v3.3.1+2
@@ -997,7 +998,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: inherit;
+  font-family: "Merienda", Georgia, "Times New Roman", Times, serif;
   font-weight: 400;
   line-height: 1.1;
   color: #444444;
